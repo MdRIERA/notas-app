@@ -11,7 +11,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
 ## Configura Firebase
 
-Ve a la Consola de Firebase y crea una cuenta si aún no tienes una.
+Ve a la Consola de Firebase (https://console.firebase.google.com/) y crea una cuenta si aún no tienes una.
 
 Crea un nuevo proyecto.
 
@@ -27,10 +27,12 @@ Luego, abre el archivo src/environments/environment.ts y reemplaza los valores c
 
 ## Angular
 
-Situate en la carpeta que descargaste
+Sitúate en la carpeta que descargaste.
+
+Ejecuta el siguiente comando para instalar las dependencias necesarias:
 
 npm install 
 
-## Ejcución
+## Ejecución
 
 ng serve -o
