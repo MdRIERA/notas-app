@@ -1,0 +1,67 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card form div {
+  margin-bottom: 20px;
+}
+
+.card input[type="text"],
+.card textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.card button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.volver-btn {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px; /* Borde circular */
+  margin-top: 10px;
+}
+
+.volver-btn:hover {
+  background-color: #218838;
+}

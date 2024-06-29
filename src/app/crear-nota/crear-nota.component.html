@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="card">
+    <h2>Crear Nota</h2>
+    <form (ngSubmit)="agregarNota()">
+      <div>
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" [(ngModel)]="nuevaNota.titulo" name="titulo" required>
+      </div>
+      <div>
+        <label for="contenido">Contenido:</label>
+        <textarea id="contenido" [(ngModel)]="nuevaNota.contenido" name="contenido" required></textarea>
+      </div>
+      <button type="submit">Agregar Nota</button>
+    </form>
+    <p *ngIf="mensajeConfirmacion">{{ mensajeConfirmacion }}</p>
+  </div>
+  <button (click)="volverAlInicio()" class="volver-btn">Volver al Inicio</button>
+</div>

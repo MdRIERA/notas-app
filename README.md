@@ -1,27 +1,36 @@
-# NotasApp
+# Notas App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+Una aplicación simple de Angular para crear, ver y eliminar notas utilizando Firebase Realtime Database.
 
-## Development server
+## Requisitos Previos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
-## Code scaffolding
+- [Node.js](https://nodejs.org/) (versión 12 o superior)
+- [Angular CLI](https://angular.io/cli) (versión 12 o superior)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configura Firebase
 
-## Build
+Ve a la Consola de Firebase y crea una cuenta si aún no tienes una.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Crea un nuevo proyecto.
 
-## Running unit tests
+Ve a la sección "Configuración del proyecto" y selecciona "Agregar una nueva aplicación web".
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Registra tu aplicación y copia las claves de configuración de Firebase que se te proporcionen.
 
-## Running end-to-end tests
+Crea un archivo src/environments/environment.ts basado en el archivo de ejemplo src/environments/environment.example.ts:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+cp src/environments/environment.example.ts src/environments/environment.ts
 
-## Further help
+Luego, abre el archivo src/environments/environment.ts y reemplaza los valores con tus propias claves de configuración de Firebase:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Angular
+
+Situate en la carpeta que descargaste
+
+npm install 
+
+## Ejcución
+
+ng serve -o

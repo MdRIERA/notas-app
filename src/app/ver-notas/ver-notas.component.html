@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Ver Notas</h2>
+    <input type="text" [(ngModel)]="searchText" placeholder="Buscar por título" class="search-bar" />
+    <button (click)="volverAlInicio()" class="volver-btn">Volver al Inicio</button>
+    <div class="notas-container">
+      <div class="card" *ngFor="let nota of notasFiltradas()">
+        <h3>{{ nota.titulo }}</h3>
+        <p>{{ nota.contenido }}</p>
+        <button (click)="borrarNota(nota.id!)">Borrar</button>
+      </div>
+    </div>
+  </div>
+  
